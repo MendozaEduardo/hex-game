@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    line-height: 1.0;
+    color: white;
+    background: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #232323;
+    margin: 0;
+    font-family: "avenir";
+}
+
+.board {
+    display: grid;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    color: white;
+    margin: 2%;
+    border-radius: 50%;
+}
+
+.selected {
+    color: white;
+    background-color: steelblue;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    --webkit-transition: background 0.6s;
+    --moz-transtion: background 0.6s;
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+}
+
+#colorDisplay {
+    background-color: "#9A0CF2";
+    display: inline-block;
+    width: 100%;
+}
