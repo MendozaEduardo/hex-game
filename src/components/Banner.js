@@ -6,14 +6,12 @@ const Banner = () => {
     let { objective } = state;
 
     return (
-        <div>
-            <h1>
-                The Paw-some
-                <br />
-                <span id="colorDisplay">{objective ? objective : "RGB"}</span>
-                <br />
-                Hex Game
-            </h1>
+        <div className="banner">
+            <h1>The Paw-some Hex Game</h1>
+            <span id="colorDisplay">
+                <strong>Objective: </strong>
+                {objective ? objective : "RGB"}
+            </span>
         </div>
     );
 };

@@ -17,9 +17,7 @@ export default function Card({ height, width, color }) {
             onClick={() => {
                 color === objective ? dispatch({ type: NEXT_ROUND }) : dispatch({ type: RESET });
             }}
-        >
-            {color}
-        </div>
+        />
     );
 }
 

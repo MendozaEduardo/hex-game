@@ -34,8 +34,8 @@ export default function Board() {
                     color={card.color}
                     id={card.id}
                     key={card.id}
-                    height={dimension / 6}
-                    width={dimension / 6}
+                    height={dimension / 8}
+                    width={dimension / 8}
                 />
             ))}
         </Grid>
